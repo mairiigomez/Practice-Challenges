@@ -14,7 +14,9 @@ def print_rangoli(size):
     
     
     print(rangoli)
-
+    print(len(rangoli))
+    print(type(rangoli))
+        
 if __name__ == '__main__':
     n = int(input())
     print_rangoli(n)
